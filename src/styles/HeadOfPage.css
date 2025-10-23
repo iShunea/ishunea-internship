@@ -1,0 +1,62 @@
+#head-of-page-about {
+    padding: 0px 80px 0px 80px;
+    gap: 8px;
+    max-width: 1440px;
+}
+
+#title-head-of-page-about {
+    font-weight: 500;
+    line-height: 67.2px;
+    font-size: 56px;
+}
+
+#parag-head-of-page-about {
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 50%;
+    width: 628px;
+}
+
+.buttons-head-of-page-about {
+    padding-top: 32px; 
+    gap: 24px;
+}
+
+@media (max-width: 1460px) {
+    #head-of-page-about {
+        padding: 0px 24px 40px 24px;
+        gap:4px;
+    }
+
+    #title-head-of-page-about {
+        font-size: 48px;
+        line-height: 57.6px;
+    }
+
+    #parag-head-of-page-about {
+        width: 100%;
+        text-wrap: balance;
+    }
+}
+
+@media (max-width: 641px) {
+    #head-of-page-about {
+        padding: 0px 16px 24px 16px;
+    }
+
+    #title-head-of-page-about {
+        font-size: 36px;
+        line-height: 46.8px;
+    }
+
+}
+
+@media (max-width: 719px) {
+    .buttons-head-of-page-about {
+        flex-direction: column;
+    }
+
+    .buttons-head-of-page-about > * .request-button {
+        min-width: 100%;
+    }
+}

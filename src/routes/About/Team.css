@@ -1,0 +1,35 @@
+.team-section {
+    padding: 100px 80px 100px 80px;
+    gap: 40px;
+    width: 100%;
+}
+
+.team-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67.2px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .team-section {
+        padding: 64px 40px 64px 40px;
+    }
+
+    .team-title {
+        font-size: 48px;
+        line-height: 57.6px;
+    }
+}
+
+@media (max-width: 560px) {
+    .team-title {
+        font-size: 36px;
+        line-height: 46.8px;
+    }
+
+    .team-section {
+        padding-left: 12.5px;
+        padding-right: 12.5px;
+    }
+}

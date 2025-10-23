@@ -1,0 +1,58 @@
+.service-heading {
+  padding: 0px 80px 80px 80px;
+  gap: 24px;
+}
+
+.image-service-page {
+  max-height: 1000px;
+  height: 1000px;
+  min-width: 100%;
+  object-fit: cover; /* Apply the cover effect to the image */
+  object-position: center center;
+}
+
+.service-image-text-wrapper {
+  bottom:100px;
+  left: 80px;
+}
+
+.service-image-title {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 120px;
+}
+
+@media (max-width: 1460px) {
+  .service-heading {
+    flex-direction: column;
+    padding: 0px 24px 40px 24px;
+  }
+}
+
+@media (max-width: 743px) {
+  .image-service-page {
+    height: 560px;
+  }
+
+  .service-image-text-wrapper {
+    left: 16px;
+    width: 358px;
+    bottom: 50px;
+  }
+
+  .service-heading {
+    padding: 0px 16px 40px 16px;
+  }
+
+  .service-image-title {
+    font-size: 64px;
+    line-height: 76.8px;
+  }
+
+  .service-heading * {
+    align-items: center;
+    flex-direction: column;
+    text-wrap: balance;
+    text-align: center;
+  }
+}

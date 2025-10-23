@@ -1,0 +1,89 @@
+.job-content-section {
+    width: 800px;
+    padding: 0px 0px 100px 0px;
+}
+
+.jobs-posting-section {
+    padding: 0px 0px 40px 0px;
+    gap: 24px;
+}
+
+.first-job-posting {
+    padding-top: 40px !important;
+}
+
+.job-location {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.job-posting-section-heading {
+    font-size: 36px;
+    line-height: 46.8px;
+}
+
+.job-content-section ul {
+    list-style-type: none;
+    gap: 20px;
+}
+
+.job-posting-marker {
+    height: 24px;
+    gap: 4px;
+}
+
+.job-posting-circle {
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+    background: rgba(254, 183, 0, 0.2);
+    border: 1.5px solid rgba(0, 0, 0, 0.01)
+}
+
+.jobs-posting-message-box {
+    padding: 0px 80px 100px 80px;
+    gap: 4px;
+}
+
+/* @media (max-width: 1100px) {
+
+} */
+
+@media (max-width:1010px) {
+    .back-on-history-button {
+        display: none;
+    }
+    
+    #main-job-posting {
+        padding-top: 152px !important;
+    }
+}
+
+
+
+@media (max-width: 835px) {
+    .job-content-section {
+        width: 100%;
+        padding: 0px 24px 64px 24px;
+    }
+
+    .jobs-posting-message-box {
+        padding: 0;
+    }
+}
+
+@media (max-width:400px) {
+    #main-job-posting {
+        padding-top: 128px !important;
+    }
+
+    .job-posting-section-heading {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .jobs-posting-message-box .modal-box-action .request-button {
+        min-width: 100%;
+    }
+}

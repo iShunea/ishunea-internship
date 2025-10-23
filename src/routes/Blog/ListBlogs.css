@@ -1,0 +1,39 @@
+#list-blogs {
+    gap: 40px;
+}
+
+.row-blogs {
+    gap: 40px;
+    min-width: 290px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination > * {
+    margin: 20px 8px 0 8px;
+    background: rgb(253, 187, 0);
+    border-radius: 50%;
+}
+
+.pagination div {
+    cursor: pointer;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+
+.button-deactivated {
+    background-color: rgb(117, 96, 39) !important;   
+    cursor:default !important;
+}
+
+@media (max-width: 1490px) {
+    #main-blog-page {
+        padding: 152px 24px 64px 24px !important;
+    }
+}

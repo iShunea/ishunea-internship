@@ -1,0 +1,17 @@
+[
+    {
+        "id": "mobile_application_1",
+        "title": "Mobile Applications",
+        "firstIconPath": "/images/icon-product.svg",
+        "firstIconTitle": "Premium deliverables",
+        "firstIconDescription": "Our applications always meet the high standards of the market",
+        "secondIconPath": "/images/icon-security.svg",
+        "secondIconTitle": "High level security",
+        "secondIconDescription": "Performance & security testing stands at the core of our solutions",
+        "imageTitlePath": "/images/mob-app-1.png",
+        "imageTitle": "6.6 billion",
+        "imageTitleDescription": "of global smartphone users, marking a 4.9% annual increase",
+        "titleDescription": "Native or cross-browser applications for smartphones and tablets with modern designs and outstanding quality"
+
+    }
+]

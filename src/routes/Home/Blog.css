@@ -1,0 +1,32 @@
+.blog {
+    width: 100%;
+    /* max-width: 1440px; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0px 80px 100px 80px;
+    background-color: white;
+}
+
+.wrapper-blog {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    align-items:center;
+    height: auto;
+}
+
+@media (max-width: 1000px) {
+    .blog {
+        padding: 0px 24px 64px 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .blog {
+        padding: 0px 16px 40px 16px;
+    }
+
+
+}

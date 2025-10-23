@@ -1,0 +1,181 @@
+.progress {
+    width: 100%;
+    /* max-width: ; */
+    height: max-content;
+    border-radius: 40px 40px 0px 0px;
+    padding: 100px 80px 20px 80px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.progress .content {
+    width: auto;
+    height: 1011px;
+}
+
+.progress > .content .heading {
+    width: 411px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    text-align: left;
+}
+
+.progress .heading h4 {
+    width: 411px;
+    height: 67px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67.2px;
+    color: black;
+    margin: 0;
+}
+
+.card-content > p {
+    font-family: "Inter", sans-serif;
+    opacity: 50%;
+    margin: auto;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#intro {
+    width:100%;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    line-height: 24px;
+    text-align: left;
+    text-wrap: balance;
+    opacity: 50%;
+}
+
+.progress .grid-card {
+    /* position: relative; */
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+}
+
+.progress .grid-card .card {
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px 1px rgba(0, 0, 0, 0.02);
+    padding: 40px 32px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 400px;
+    position: relative;
+    max-width: 411px;
+    height: auto;
+    gap: 16px
+}
+
+.card-content {
+    height: auto;
+}
+
+#card1 {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+}
+
+#card2 {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+}
+
+#card3 {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+}
+
+#card4 {
+    grid-row: 4 / 6;
+    grid-column: 1 / 2;
+}
+
+#card5 {
+    grid-row: 3 / 6;
+    grid-column: 2 / 3;
+}
+
+#card6 {
+    grid-row: 4 / 6;
+    grid-column: 3 / 4;
+}
+.count-progress {
+    font-weight: 700;
+    font-size: 200px;
+    background: linear-gradient(180deg, rgba(138, 162, 169, 0.5) 0%, #FFFFFF 68.33%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: right;
+    position: absolute;
+    bottom: -150px;
+    right: 5px;
+    opacity: 80%;
+}
+
+@media (max-width: 1218px) {
+
+    .progress .content {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 40px;
+    }
+
+    .progress .grid-card {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 16px;
+        /* width: 95%; */
+    }
+
+    .progress .grid-card .card {
+        margin: 0 auto 16px auto;
+        width: 352px;
+    }
+
+    .progress .grid-card .card:last-child {
+        margin-bottom: 0;
+    }
+
+    #card3 {
+        min-height: 550px;
+    }
+    
+    #card5 {
+        min-height: 600px;
+    }
+    
+    .progress > .content .heading {
+        position: initial;
+    }
+}
+
+@media (max-width: 600px) {
+    .progress {
+        padding: 40px 16px 0px 16px;
+    }
+
+    .progress .heading {
+        max-width: 100%;
+    }
+}

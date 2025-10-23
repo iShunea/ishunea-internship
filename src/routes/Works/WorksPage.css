@@ -1,0 +1,26 @@
+#case-studies-wrapper {
+    width: 100%;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#case-studies {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 80px 40px 80px;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    #case-studies {
+        text-align: left;
+        gap: 16px;
+        padding: 0px 16px 24px 16px;
+    }
+}

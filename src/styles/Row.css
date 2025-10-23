@@ -1,0 +1,109 @@
+:root {
+    --height-row-wrapper-default-service-item: 384px;
+    --height-row-wrapper-minimized-service-item: 264px;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    width:auto;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    gap: 24px;
+    /* justify-content: initial !important; */
+    overflow-x:auto;
+    overflow-y: hidden;
+    align-items: end;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    --ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.row > * {
+    margin-bottom: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+
+.row-wrapper-default-service-item {
+    height: var(--height-row-wrapper-default-service-item);
+
+}
+
+.row-wrapper {
+    display: flex;
+    width:100%;
+    align-items:center;
+    justify-content: center;
+    margin: 0;
+    max-width: 2000px;
+}
+
+.row-wrapper-minimized-service-item {
+    height: var(--height-row-wrapper-minimized-service-item);
+}
+
+/* .row-service-item > :first-child,  .row-service-item > :last-child{
+    margin-bottom:auto;
+} */
+
+/* .news-cards-wrapper {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.content-news-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 302px;
+    height: auto;
+}
+
+.content-news-cards * {
+    margin: 0;
+}
+
+.title-content-news-cards {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.date-news-cards {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 50%;
+} */
+
+.row-wrapper-members {
+    height: 464px;
+}
+
+/* .row-members > :first-child,  .row-members > :last-child{
+    margin-bottom:auto;
+} */
+
+.row-gallery {
+    height: 728px;
+    align-items: center;
+    max-width: 95%;
+}
+
+.row-gallery-image {
+    object-fit: cover;
+    width: 628px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 0;
+    margin-bottom: 0;
+}

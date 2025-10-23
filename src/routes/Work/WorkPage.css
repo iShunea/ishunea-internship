@@ -1,0 +1,332 @@
+.work-image {
+    min-height: 862px;
+    object-fit: cover;
+}
+
+.gradient-image-work {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+}
+
+.work-heading {
+    top: 493px;
+    left: 80px;
+}
+
+.work-image-title {
+    width: 628px;
+}
+
+.icons-work-page {
+    max-width: 825px;
+}
+
+.work-title-button {
+    padding: 32px 0px 0px 0px;
+    width: max-content;
+}
+
+.work-call-to-action {
+    padding: 0px 80px 100px 80px;
+}
+
+.work-call-to-action-wrapper {
+    padding: 0px 80px 100px 80px;
+}
+
+.work-call-to-action-box {
+    padding: 100px 0px 100px 0px;
+    gap: 100px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #202020 0%, #0A0A0A 100%),
+    radial-gradient(50% 111.31% at 0% 50%, rgba(216, 30, 91, 0.02) 0%, rgba(0, 0, 0, 0) 100%),
+    radial-gradient(50% 111.31% at 100% 0%, rgba(251, 223, 6, 0.02) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.work-call-to-action-box-heading {
+    padding: 0px 80px 0px 80px;
+}
+
+.line-break-work-to-action {
+    height: 2px;
+    background: white;
+    opacity: 8%;
+}
+
+.work-screens-container {
+    gap: 48px;
+    border-radius: 20px;
+}
+
+.yellow-span {
+    background: -webkit-linear-gradient(259.51deg, #FBDF06 -2.01%, #FEB700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.screens-width {
+    width: 582px;
+}
+
+.work-projects-wrapper {
+    width: 1280px;
+}
+
+.work-projects {
+    padding: 100px 80px 100px 80px;
+    gap: 200px;
+    border-radius: 40px 40px 0px 0px;
+    height: 1600px;
+}
+
+.work-projects-heading {
+    width: 411px;
+}
+
+.work-projects-grid {
+    top: 91px;
+    left: 0;
+    height: 100%;
+}
+
+.work-rectangle-hidden-background {
+    bottom: 0;
+    height: 300px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%);
+}
+
+.first-column-work-project {
+    width: 302px;
+    top: 171px;
+    height: auto;
+}
+
+.second-column-work-project {
+    width: 302px;
+    top: 171px;
+    left: 326px;
+}
+
+.third-column-work-project {
+    width: 302px;
+    top: -71px;
+    left: 652px;
+}
+
+.fourth-column-work-project {
+    width: 302px;
+    top: -71px;
+    left: 978px;
+}
+
+.work-project-title-font {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    opacity: 50%;
+    width: 100%;
+    margin: 0;
+
+}
+
+.container-work-hidden {
+    height: 600px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%);
+    top: 1000px;
+}
+
+@media (max-width: 1200px) {
+    .work-call-to-action {
+        padding: 0px 24px 64px 24px;
+    }
+
+    .work-call-to-action-wrapper {
+        padding: 0;
+    }
+
+    .work-call-to-action-box {
+        padding: 64px 0px 64px 0px;
+        gap: 64px;
+    }
+
+    .work-call-to-action-box-heading {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .work-heading {
+        left: 24px;
+        width: calc(100% - 24px * 2);
+        /* width: 100%; */
+    }
+
+    .work-image-title {
+        width: 100%;
+    }
+
+    .work-call-to-action-box-heading{
+        flex-direction: column;
+    }
+
+    .work-call-to-action-box-heading > * {
+        flex-direction: row !important;
+        gap: 24px !important; 
+    }
+
+    .container-work-hidden {
+        top: 1200px;
+    }
+}
+
+
+/* Review section */
+.review-work-section {
+    padding: 0px 80px 100px 80px;
+}
+
+.review-work-wrapper {
+    padding: 200px 80px 200px 80px;
+    background: linear-gradient(180deg, #FAFAFA 0%, #FAFAFA 100%),
+                radial-gradient(50% 63.63% at 50% 36.37%, rgba(138, 162, 169, 0) 0%, rgba(138, 162, 169, 0.1) 100%);
+}
+
+.review-work {
+    max-width: 572px;
+}
+
+.quota-review-work {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.review-author-image {
+    width: 64px;
+    height: 64px;
+}
+
+@media (max-width: 868px) {
+    .review-work-section {
+        padding: 0px 24px 64px 24px;
+    }
+
+    .review-work-wrapper {
+        padding: 0;
+    }
+}
+
+@media (max-width: 545px) {
+    .review-work-section {
+        padding: 24px 16px 24px 16px;
+    }
+}
+
+
+/* Images section */
+@media (max-width: 700px) {
+    .work-heading {
+        left: 16px;
+        width: calc(100% - 16px * 2);
+    }
+
+    .work-call-to-action-wrapper {
+        gap: 40px;
+    }
+
+    .work-title-button {
+        width: 100%;
+    }
+
+    .work-call-to-action-box-heading {
+        padding: 0px 16px 0px 16px;
+    }
+
+    .work-call-to-action-box {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .work-call-to-action-box-heading > * {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+        text-wrap: balance;
+    }
+}
+
+/* works images */
+@media (max-width: 1434px) {
+    .work-projects {
+        padding: 64px 24px 80px 24px;
+    }
+
+    .container-work-hidden {
+        top: 1100px;
+    }
+
+    .work-projects-wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1340px) {
+    .work-projects-heading {
+        width: 100%;
+        text-align: center;
+        text-wrap: balance;
+    }
+
+    .work-projects-grid {
+        position: initial !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .work-projects-wrapper {
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .first-column-work-project, .second-column-work-project, .third-column-work-project, .fourth-column-work-project {
+        position: initial !important;
+    }
+}
+
+@media (max-width: 1222px) {
+    .fourth-column-work-project {
+        display: none !important;
+    }
+}
+
+@media (max-width: 922px) {
+    .third-column-work-project {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 610px) {
+    .second-column-work-project {
+        display: none !important;
+    }
+
+    .work-projects {
+        padding: 40px 16px 0px 16px;
+    }
+}
+
+@media (max-width: 520px) {
+    .work-call-to-action {
+        padding: 0px 16px 40px 16px;
+    }
+    
+    .screens-width {
+        width: 100%;
+    }
+
+    .customized-none {
+        display: none;
+    }
+}

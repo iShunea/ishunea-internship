@@ -1,0 +1,32 @@
+.tags-flex-wrapper {
+    gap: 8px;
+    max-width: 1440px;
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+    overflow-y: hidden;
+    align-items: end;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    --ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tag-item {
+    background: linear-gradient(259.51deg, #FBDF06 -2.01%, #FEB700 100%);
+    padding: 6px 16px 6px 16px;
+    gap: 4px;
+    /* width: max-content !important; */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: max-content;
+    border:none;
+}
+
+.default-tag-item-color {
+    border: 1px solid rgba(138, 162, 169, 0.24);
+    background: white !important;
+}

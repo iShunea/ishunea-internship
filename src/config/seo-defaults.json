@@ -1,0 +1,255 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2025-10-15T13:24:23.230080+03:00",
+  "site": {
+    "brand": "iShunea Tech Solutions",
+    "domain": "https://www.ishunea.io",
+    "default_lang": "en",
+    "langs": [
+      "en",
+      "ro",
+      "ru"
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/ishunea",
+      "github": "https://github.com/ishunea"
+    },
+    "theme_color": "#0B0F19",
+    "icons": {
+      "favicon": "/favicons/favicon.ico",
+      "apple_touch": "/favicons/apple-touch-icon.png",
+      "manifest": "/site.webmanifest"
+    },
+    "og": {
+      "default_image": "/og/default.webp",
+      "width": 1200,
+      "height": 630,
+      "site_name": "iShunea Tech Solutions"
+    }
+  },
+  "rules": {
+    "title_format": "{{page.title}} | iShunea Tech Solutions",
+    "home_title": "Custom Software, AI & IoT for Growth | iShunea",
+    "description_max": 160,
+    "title_max": 60,
+    "robots_index_default": "index,follow",
+    "noindex_paths": [
+      "/search",
+      "/tags",
+      "/draft",
+      "/thank-you",
+      "/cart",
+      "/checkout",
+      "/preview"
+    ],
+    "canonical_pattern": "{{site.domain}}/{{lang}}{{page.path}}",
+    "sitemap": {
+      "index": "/sitemap.xml",
+      "parts": [
+        "/sitemap-services.xml",
+        "/sitemap-industries.xml",
+        "/sitemap-content.xml"
+      ]
+    }
+  },
+  "hreflang": {
+    "en": "en",
+    "ro": "ro",
+    "ru": "ru",
+    "x_default": "en"
+  },
+  "schema": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "iShunea Tech Solutions",
+      "url": "https://www.ishunea.io",
+      "logo": "https://www.ishunea.io/static/brand/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/ishunea",
+        "https://github.com/ishunea"
+      ]
+    },
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.ishunea.io",
+      "name": "iShunea Tech Solutions",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.ishunea.io/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    "breadcrumb_template": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "{{crumbs.0.name}}",
+          "item": "{{crumbs.0.url}}"
+        }
+      ]
+    }
+  },
+  "page_types": {
+    "home": {
+      "title": "Custom Software, AI & IoT for Growth | iShunea",
+      "description": "We design & build clean-code software (CRM/ERP, Web/Mobile, Data/AI, IoT). Fast delivery, measurable impact. Book a discovery call.",
+      "og_type": "website",
+      "og_image": "/og/home.webp",
+      "robots": "index,follow",
+      "schema": [
+        "WebSite"
+      ]
+    },
+    "service": {
+      "title": "{{page.h1}} | iShunea",
+      "description": "{{page.benefit}} {{page.proof}} Book a discovery call.",
+      "og_type": "website",
+      "og_image": "/og/services-{{page.slug}}.webp",
+      "robots": "index,follow",
+      "schema": [
+        "Service",
+        "FAQPage"
+      ]
+    },
+    "industry": {
+      "title": "{{page.h1}} Software Development | iShunea",
+      "description": "{{page.outcome}} for {{page.industry}}. See case studies.",
+      "og_type": "website",
+      "og_image": "/og/industries-{{page.slug}}.webp",
+      "robots": "index,follow",
+      "schema": [
+        "Service"
+      ]
+    },
+    "case_study": {
+      "title": "Case Study: {{page.project}} — {{page.key_outcome}} | iShunea",
+      "description": "Challenge → Solution → KPIs. {{page.results_short}}",
+      "og_type": "article",
+      "og_image": "/og/case-{{page.slug}}.webp",
+      "robots": "index,follow",
+      "schema": [
+        "Article"
+      ]
+    },
+    "blog": {
+      "title": "{{page.h1}} | iShunea",
+      "description": "{{page.summary_150}}",
+      "og_type": "article",
+      "og_image": "/og/blog-{{page.slug}}.webp",
+      "robots": "index,follow",
+      "schema": [
+        "BlogPosting"
+      ]
+    },
+    "contact": {
+      "title": "Book a Discovery Call | iShunea",
+      "description": "Tell us about your project (industry, goals, timeline). We'll answer within 1 business day.",
+      "og_type": "website",
+      "og_image": "/og/contact.webp",
+      "robots": "index,follow",
+      "schema": [
+        "Organization"
+      ]
+    },
+    "utility_noindex": {
+      "title": "{{page.h1}} | iShunea",
+      "description": "{{page.summary_150}}",
+      "og_type": "website",
+      "og_image": "/og/default.webp",
+      "robots": "noindex,nofollow",
+      "schema": []
+    }
+  },
+  "defaults_per_lang": {
+    "en": {
+      "x_default": true,
+      "meta_suffix": " | iShunea Tech Solutions",
+      "og_locale": "en_US",
+      "alt_paths": {
+        "ro": "/ro{{page.path_ro}}",
+        "ru": "/ru{{page.path_ru}}"
+      }
+    },
+    "ro": {
+      "meta_suffix": " | iShunea Tech Solutions",
+      "og_locale": "ro_MD",
+      "alt_paths": {
+        "en": "/en{{page.path_en}}",
+        "ru": "/ru{{page.path_ru}}"
+      }
+    },
+    "ru": {
+      "meta_suffix": " | iShunea Tech Solutions",
+      "og_locale": "ru_MD",
+      "alt_paths": {
+        "en": "/en{{page.path_en}}",
+        "ro": "/ro{{page.path_ro}}"
+      }
+    }
+  },
+  "generator_logic": {
+    "title_fallback_order": [
+      "seoTitle",
+      "h1",
+      "menuTitle"
+    ],
+    "description_fallback_order": [
+      "seoDescription",
+      "intro",
+      "summary_150"
+    ],
+    "og_image_fallbacks": [
+      "/og/{{page.type}}-{{page.slug}}.webp",
+      "/og/default.webp"
+    ],
+    "robots_overrides": {
+      "noindex_if_draft": true,
+      "noindex_paths": [
+        "@rules.noindex_paths"
+      ]
+    },
+    "canonical_builder": "{{rules.canonical_pattern}}",
+    "alternates_builder": {
+      "en": "{{site.domain}}/en{{page.path_en}}",
+      "ro": "{{site.domain}}/ro{{page.path_ro}}",
+      "ru": "{{site.domain}}/ru{{page.path_ru}}",
+      "x-default": "{{site.domain}}/en{{page.path_en}}"
+    }
+  },
+  "examples": {
+    "service_data_ai_en": {
+      "page": {
+        "type": "service",
+        "slug": "data-ai",
+        "h1": "Data & AI Engineering",
+        "benefit": "From data pipelines to LLMs in production.",
+        "proof": "Secure, reliable, measurable ROI."
+      },
+      "lang": "en"
+    },
+    "industry_healthcare_en": {
+      "page": {
+        "type": "industry",
+        "slug": "healthcare",
+        "h1": "Healthcare Software Development",
+        "industry": "Healthcare & Biotech",
+        "outcome": "Secure, compliant software for registries, LIMS and integrations"
+      },
+      "lang": "en"
+    }
+  },
+  "qa_checklist": [
+    "Single <title> and <meta name='description'> present",
+    "Canonical absolute and parameter-free",
+    "Hreflang complete + reciprocal across en/ro/ru + x-default",
+    "OG/Twitter complete; image 1200x630 <= 300KB",
+    "Organization/WebSite/Breadcrumb schema validate (0 errors)",
+    "Robots correct (noindex where required)",
+    "No duplicate titles/descriptions in crawl"
+  ]
+}

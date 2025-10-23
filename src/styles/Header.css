@@ -1,0 +1,105 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items:center;
+    gap:24px;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header .btn-secondary:hover,
+header .btn-secondary:focus,
+header .btn-secondary:active,
+header .btn-secondary {
+    --bs-btn-active-bg : transparent;
+    border:none;
+    background-color: transparent;
+}
+
+header > * {
+    font-size: 16px;
+    color: white;
+}
+
+#header-menu {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+header hr {
+    position: absolute;
+    margin-left: 80px;
+    bottom: 0;
+    left: 0;
+    opacity: 10%;
+    width: calc(100% - 160px);
+}
+
+.invert-color-svg {
+    filter: invert(1);
+}
+
+.mobile-tablet-nav-button {
+    padding: 8px 20px 8px 20px;
+    gap: 6px;
+    border-radius: 100px;
+}
+
+.white-mobile-tablet-nav-button {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)),
+    radial-gradient(49.75% 100% at 50% 100%, rgba(251, 223, 6, 0.04) 0%, rgba(251, 223, 6, 0) 100%);
+}
+
+.black-mobile-tablet-nav-button {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
+    radial-gradient(49.75% 100% at 50% 100%, rgba(251, 223, 6, 0.04) 0%, rgba(251, 223, 6, 0) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 1100px) {
+    header {
+        padding: 24px;
+    }
+
+    #header-menu > .dropdown {
+        display: none;
+    }
+    
+    .navigation-list li {
+        display: none;
+    }
+
+    .mobile-nav-links {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 46.8px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+/* Media rule to hide mobile/table button */
+@media (min-width: 1101px) {
+    .mobile-tablet-nav-button {
+        display: none;
+    }
+}

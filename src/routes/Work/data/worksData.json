@@ -1,0 +1,93 @@
+[
+    {
+        "id" : "xiaomi_store_1",
+        "titleImagePath": "/images/xiaomi-store-work.png",
+        "title": "Xiaomi Store",
+        "titleParagraph": "One of the leading players on the global market. Moldova did not become an exception to this rule either. The current site needs a fresh and clean look.",
+        "visitWebsiteLink": "https://xiaomistore.md/",
+        "callToActionTitle": "Main challenge",
+        "callToActionParagraph": "There are many e-commerce platforms on the Moldovan market. Some have a wide list of categories and products, others operate with well-structured filtering. Another one keeps the checkout process as fast as possible. Putting it all together and seasoning with the brand of Xiaomi, we get the best solution possible.",
+        "firstColumnProjects": [
+            {
+                "imagePath": "/images/xiaomi-store-homepage.svg",
+                "title": "Homepage"
+            },
+            {
+                "imagePath": "/images/about-xiaomi.svg",
+                "title": "about company"
+            },
+            {
+                "imagePath": "/images/device-insurance-xiaomi.svg",
+                "title": "device insurance"
+            }
+        ],
+        "secondColumnProjects": [
+            {
+                "imagePath": "/images/xiaomi-subcategories.svg",
+                "title": "Subcategories"
+            },
+            {
+                "imagePath": "/images/xiaomi-credit.svg",
+                "title": "MI Credit"
+            },
+            {
+                "imagePath": "/images/xiaomi-testimonials.svg",
+                "title": "Testimonials"
+            },
+            {
+                "imagePath": "/images/xiaomi-reviews.svg",
+                "title": "Video reviews"
+            },
+            {
+                "imagePath": "/images/xiaomi-discount.svg",
+                "title": "mi discount"
+            },
+            {
+                "imagePath": "/images/xiaomi-service-center.svg",
+                "title": "service center"
+            }
+        ],
+        "thirdColumnProjects": [
+            {
+                "imagePath": "/images/xiaomi-catalog.svg",
+                "title": "products grid"
+            },
+            {
+                "imagePath": "/images/xiaomi-compare.svg",
+                "title": "compare products"
+            },
+            {
+                "imagePath": "/images/xiaomi-search-results.svg",
+                "title": "search results"
+            },
+            {
+                "imagePath": "/images/xiami-article.svg",
+                "title": "blog article"
+            }
+        ],
+        "fourthColumnProjects": [
+            {
+                "imagePath": "/images/xiaomi-product.svg",
+                "title": "Product Page"
+            },
+            {
+                "imagePath": "/images/xiaomi-blog.svg",
+                "title": "blog page"
+            },
+            {
+                "imagePath": "/images/xiaomi-contacts.svg",
+                "title": "contacts page"
+            },
+            {
+                "imagePath": "/images/xiaomi-delivery.svg",
+                "title": "delivery & payment"
+            }
+        ],
+        "review": {
+            "text": "“iShunea is one of our key technology partners; they helped us build and launch two business critical websites. I could not wish for a better partner. Thank you a lot!”",
+            "author": "Andrew Rusnak",
+            "position": "CEO at SRL Mobile Stock",
+            "imageSrc": "/images/rusnak.png"
+        }
+    }
+]

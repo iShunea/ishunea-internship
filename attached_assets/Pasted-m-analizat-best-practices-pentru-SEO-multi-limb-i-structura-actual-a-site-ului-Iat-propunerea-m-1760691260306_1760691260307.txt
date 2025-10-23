@@ -1,0 +1,89 @@
+m analizat best practices pentru SEO multi-limbă și structura actuală a site-ului. Iată propunerea mea:
+
+🌍 Strategia Optimă pentru Multi-Language (RO/RU/EN)
+1. Structura URL Recomandată: Subdirectories
+easyreserv.io/          → Română (default/x-default)
+easyreserv.io/ru/       → Rusă
+easyreserv.io/en/       → Engleză
+De ce subdirectories?
+
+✅ Cel mai ușor de implementat și menținut
+✅ Consolidează autoritatea domeniului (SEO mai bun)
+✅ Cel mai cost-eficient
+✅ Perfect pentru business mic/mediu
+2. Hreflang Tags (CRITIC pentru SEO)
+Fiecare pagină va avea:
+
+<link rel="alternate" hreflang="ro" href="https://easyreserv.io/" />
+<link rel="alternate" hreflang="ru" href="https://easyreserv.io/ru/" />
+<link rel="alternate" hreflang="en" href="https://easyreserv.io/en/" />
+<link rel="alternate" hreflang="x-default" href="https://easyreserv.io/" />
+3. Implementare Tehnică
+Propunere: Context API + JSON Translation Files
+
+client/src/
+├── locales/
+│   ├── ro.json          # Conținut românesc
+│   ├── ru.json          # Conținut rusesc
+│   └── en.json          # Conținut englezesc
+├── contexts/
+│   └── LanguageContext.tsx
+└── hooks/
+    └── useTranslation.ts
+De ce această abordare?
+
+✅ Fără dependențe externe (i18next, react-intl)
+✅ Control complet asupra traducerilor
+✅ SEO perfect - URL-uri separate
+✅ Performance excelent - fără overhead
+✅ Ușor de mentinut și actualizat
+4. Structura Fișierelor JSON
+ro.json:
+
+{
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "solutions": "Soluții",
+    "pricing": "Prețuri",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "Platformă all-in-one pentru rezervări, POS și operațiuni",
+    "hero_description": "Automatizezi rezervările, POS, fluxurile operaționale..."
+  },
+  "seo": {
+    "home_title": "EasyReserv.io — Platformă all-in-one POS și Rezervări",
+    "home_description": "Automatizezi rezervările, POS, fluxurile operaționale..."
+  }
+}
+5. Routing Multi-Language
+Voi folosi wouter (deja instalat) cu pattern:
+
+<Route path="/:lang?/about" component={AboutUs} />
+<Route path="/:lang?/pricing" component={Pricing} />
+6. SEO Updates
+✅ Hreflang tags în componenta SEO
+✅ lang attribute dinamic (<html lang="ro">)
+✅ Canonical URLs per limbă
+✅ Schema.org localizat per limbă
+✅ OG tags per limbă
+7. Language Switcher
+Selector vizibil în Navigation
+Păstrează utilizatorul pe aceeași pagină când schimbă limba
+Salvează preferința în localStorage
+8. Ce NU folosim:
+❌ i18next (prea complex pentru nevoile noastre)
+❌ IP-based redirects (blochează Googlebot)
+❌ URL parameters ?lang=ro (SEO prost)
+❌ Traduceri automate (doar traduceri umane)
+📋 Plan de Implementare
+Vrei să încep implementarea? Iată ce voi face:
+
+Context & Hooks - LanguageContext, useTranslation hook
+Translation Files - ro.json, ru.json, en.json cu tot conținutul
+Routing Update - Suport pentru /:lang/ în toate rutele
+SEO Enhancement - Hreflang tags, lang attribute dinamic
+Navigation Update - Language switcher în NavigationSection
+Content Migration - Mutăm tot conținutul static în JSON files
+Testing - Verificăm fiecare pagină în toate limbile

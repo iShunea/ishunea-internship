@@ -1,0 +1,156 @@
+.advantage {
+    width: 100%;
+    /* height: 726px; */
+    border-radius: 0 0 40px 40px;
+    background-color: white;
+    padding: 0px 80px 80px 80px;
+}
+
+.advantage h2 {
+    margin: auto;
+}
+
+.box {
+    background-color: black;
+    width: 100%;
+    height: 646px;
+    border-radius: 16px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 64px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+#advantages-title {
+    width: 317px;
+    height: 134px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67.2px;
+    background: linear-gradient(90deg, #97B8C1, #FFFFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#advantages-list {
+    width: 580px;
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+}
+
+.advantages-row {
+}
+
+.advantages-row  *{
+    background: transparent;
+}
+
+.advantages-row .card {
+    border: none;
+    border-radius:20px;
+    width: 166.67px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.advantages-row > .card p {
+    color: #8AA2A9;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    height: 48px;
+    width: 166.67px;
+    margin: 0;
+}
+
+.advantages-row > .card .card-icon {
+    width:64px;
+    height:64px;
+}
+
+.card-icon svg {
+    width:48px;
+    height:48px;
+}
+
+.advantage-image {
+    height: 684px;
+    width: 1120px;
+    position: relative;
+}
+
+.device img {
+    width: 100%;
+    border-radius:12px 12px 0px 0px;
+    opacity: 90%;
+    position: absolute;
+}
+
+.device {
+    width: 1120px;
+    height: 684px;
+    border-radius: 24px;
+    box-shadow: inset 0px 2px 1px 0px #FFFFFF, inset -2px 0px 1px 0px #000000;
+    -webkit-box-shadow: inset 0px 2px 1px 0px #FFFFFF, inset -2px 0px 1px 0px #000000;
+    position: absolute;
+}
+
+/* Tablet mode */
+@media (max-width: 1000px) {
+    .advantage-image, .device {
+        visibility: none;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top:-1000px;
+    }
+
+    #advantages-list {
+        width: 100%;
+    }
+
+    .box {
+        padding: 48px 24px 48px 24px;
+        height: auto;
+    }
+
+    .advantage {
+        padding: 0px 24px 24px 24px;
+    }
+
+    #advantages-title {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .advantages-row {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Mobile mode */
+@media (max-width: 600px) {
+    .advantage {
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .advantages-row {
+        row-gap: 40px !important;
+        column-gap: 0 !important;
+    }
+}

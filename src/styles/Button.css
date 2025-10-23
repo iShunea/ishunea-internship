@@ -1,0 +1,78 @@
+/* General button styles */
+.button {
+    width: auto;
+    height: 48px;
+    padding: 0 20px;
+    gap: 8px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 40px 0px rgba(251, 223, 9, 0.1); /* Default shadow */
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Button sizes */
+.button-non-default-size {
+    padding: 20px 32px !important;
+    height: auto !important;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.button-non-default-size  svg {
+    stroke-width: 1000px !important; 
+    stroke: black !important;
+}
+
+
+/* Arrow styles */
+.button-arrow {
+    width: 8px;
+    margin-left: 8px;
+}
+
+.button-arrow.right {
+    transform: rotate(45deg); /* Arrow pointing right */
+}
+
+.button-arrow.up-tilted {
+    transform: rotate(0deg); /* Arrow tilted upwards */
+}
+
+/* Color variations */
+.default-button-color {
+    background: linear-gradient(to right, #FBDF06, #FEB700);
+    box-shadow: 0px 0px 40px 0px rgba(251, 223, 9, 0.1);
+}
+
+.default-button-color:hover {
+    box-shadow: 0 0 25px 0 rgba(251, 223, 6, 0.2), 0 0 50px 0 rgba(251, 223, 6, 0.2);
+}
+
+.non-default-button-color {
+    background: white;
+    box-shadow: 0 0 25px 0 rgba(230, 228, 214, 0.2);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* Specific styles from send button */
+.white-send-button {
+    background: white !important;
+    border: 1px solid rgba(0, 0, 0, 1) !important;
+}
+
+/* Shadows */
+.button {
+    box-shadow: 20px 20px 64px rgba(0, 0, 0, 0.08);
+}
+

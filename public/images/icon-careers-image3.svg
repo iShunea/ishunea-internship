@@ -1,0 +1,22 @@
+<svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_1_1349)">
+<rect x="1.66699" y="1" width="54" height="54" rx="27" stroke="url(#paint0_linear_1_1349)" stroke-width="2"/>
+<path d="M31.2333 39.4706H27.4631H23.1297M39.6275 30.2941L40.1163 27.477C40.2332 26.4487 39.8633 25.4253 39.1231 24.7289L29.6694 15.8342C28.4598 14.6961 26.6042 14.726 25.4295 15.9026L16.611 24.735C15.9165 25.4305 15.5753 26.4214 15.6882 27.4147L16.7367 36.6378C16.9203 38.2532 18.2431 39.4706 19.8146 39.4706H23.1297M35.096 32.1634V34.2706C35.096 34.9463 35.6438 35.4941 36.3195 35.4941H38.1548M23.1297 39.4706V29.2778C23.1297 28.1732 24.0252 27.2778 25.1297 27.2778H29.7964C30.901 27.2778 31.7964 28.1732 31.7964 29.2778V30.0508M31.7964 30.0508C31.2256 30.4948 30.7355 31.0378 30.3519 31.6539C29.7686 32.591 29.4317 33.6973 29.4317 34.8824C29.4317 38.261 32.1707 41 35.5493 41C38.928 41 41.667 38.261 41.667 34.8824C41.667 31.5037 38.928 28.7647 35.5493 28.7647C34.1349 28.7647 32.8326 29.2447 31.7964 30.0508Z" stroke="url(#paint1_linear_1_1349)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_b_1_1349" x="-39.333" y="-40" width="136" height="136" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="20"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_1349"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_1349" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1_1349" x1="58.0003" y1="3.66029e-06" x2="-7.45725" y2="12.119" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FBDF06"/>
+<stop offset="1" stop-color="#FEB700"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_1349" x1="42.286" y1="15" x2="11.895" y2="20.6267" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FBDF06"/>
+<stop offset="1" stop-color="#FEB700"/>
+</linearGradient>
+</defs>
+</svg>
